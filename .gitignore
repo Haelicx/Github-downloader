@@ -1,7 +1,55 @@
-/downloads
-/assets
-/download
-/browse
-/images
-/webs
-/audios
+# =========================
+# System / OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python / Node / general
+# =========================
+__pycache__/
+*.pyc
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Optional build folders
+# =========================
+dist/
+build/
+
+# =========================
+# User generated content (IGNORE RAW FILES ONLY)
+# =========================
+downloads/*
+assets/*
+download/*
+browse/*
+images/*
+webs/*
+audios/*
+
+# =========================
+# BUT KEEP STRUCTURE FILES
+# (IMPORTANT FOR YOUR BOT)
+# =========================
+
+!downloads/**/README.md
+!assets/**/README.md
+!download/**/README.md
+!browse/**/README.md
+!images/**/README.md
+!webs/**/README.md
+!audios/**/README.md
+
+# =========================
+# GitHub Actions safety
+# =========================
+.github/*.lock
