@@ -1,69 +1,89 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=42&duration=2500&pause=800&color=7A5CFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=✨+Haelicx+✨;Advanced+GitHub+Automation;Downloader+%7C+Web+Capture+%7C+Media+Extractor" />
+# ✨ 𝙃𝙖𝙚𝙡𝙞𝙘𝙭 ✨
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=45&duration=2200&pause=800&color=8A2BE2&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=180&lines=⚡+Advanced+GitHub+Automation+⚡;📥+Smart+Downloader+System;🌐+Website+Capture+Engine;📦+Archive+%26+Media+Manager;🚀+Powered+By+GitHub+Actions" />
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Haelicx&fontSize=70&fontAlignY=40&color=gradient&animation=fadeIn&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=Haelicx&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Beautiful%20GitHub%20Automation%20Toolkit&descAlignY=60&color=gradient&customColorList=12,20,24,30"/>
 
 <br><br>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/Haelicx/Github-downloader?style=for-the-badge&color=7A5CFF">
-  
-  <img src="https://img.shields.io/github/stars/Haelicx/Github-downloader?style=for-the-badge&color=00C2FF">
-  
-  <img src="https://img.shields.io/github/forks/Haelicx/Github-downloader?style=for-the-badge&color=FF4D8D">
-  
-  <img src="https://img.shields.io/github/repo-size/Haelicx/Github-downloader?style=for-the-badge&color=00FFB3">
-  
-  <img src="https://img.shields.io/github/last-commit/Haelicx/Github-downloader?style=for-the-badge&color=FFD93D">
+
+<img src="https://img.shields.io/github/license/Haelicx/Github-downloader?style=for-the-badge&logo=github&color=8A2BE2"/>
+
+<img src="https://img.shields.io/github/stars/Haelicx/Github-downloader?style=for-the-badge&logo=github&color=00C2FF"/>
+
+<img src="https://img.shields.io/github/forks/Haelicx/Github-downloader?style=for-the-badge&logo=github&color=FF0080"/>
+
+<img src="https://img.shields.io/github/repo-size/Haelicx/Github-downloader?style=for-the-badge&logo=github&color=00FFB3"/>
+
+<img src="https://img.shields.io/github/last-commit/Haelicx/Github-downloader?style=for-the-badge&logo=github&color=FFD93D"/>
+
+<img src="https://img.shields.io/github/issues/Haelicx/Github-downloader?style=for-the-badge&logo=github&color=ff4444"/>
+
 </p>
 
 <br>
 
-<h1>
-⚡ Haelicx ⚡
-</h1>
+<img src="https://komarev.com/ghpvc/?username=Haelicx&label=Repository%20Views&color=8A2BE2&style=for-the-badge"/>
 
-<h3>
-A Beautiful GitHub Actions Toolkit for Downloading, Organizing, Archiving & Capturing the Web
-</h3>
+<br><br>
+
+<h2>
+⚡ Powerful GitHub Actions Toolkit For Downloading, Organizing, Archiving & Capturing The Web ⚡
+</h2>
 
 <p>
-Transform your GitHub repository into an automated powerhouse capable of downloading files, generating split archives, organizing content, capturing websites, extracting media assets, and maintaining everything beautifully — fully powered by GitHub Actions.
+Haelicx transforms your GitHub repository into a fully automated powerhouse capable of downloading files, splitting archives, organizing content, capturing websites, extracting media assets, generating screenshots, and maintaining everything beautifully — all powered entirely by GitHub Actions.
 </p>
 
 </div>
 
 ---
 
-# 🌌 Features
+<div align="center">
+
+# 🌌 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&width=1000&lines=📥+Smart+Downloads;🌐+Website+Capture;📂+Intelligent+Organization;⚡+Fully+Automated+Workflows" />
+
+</div>
 
 <table>
 <tr>
 <td width="50%">
 
-## 📥 Smart Download Engine
+# 📥 Smart Download Engine
 
-- Multi URL support
-- Automatic retries
-- Split large files
-- ZIP archive generation
-- Password protected ZIPs
-- Automatic README creation
+```diff
++ Multi URL downloads
++ Automatic retries
++ Split large files
++ ZIP archive creation
++ Password protected archives
++ README generation
++ Auto repository push
++ Optimized for GitHub limits
+```
 
 </td>
 <td width="50%">
 
-## 🌐 Website Capture System
+# 🌐 Website Capture System
 
-- Full-page screenshots
-- HTML archiving
-- Media extraction
-- Structured folders
-- Asset indexing
-- Timestamp snapshots
+```diff
++ Full page screenshots
++ HTML archiving
++ Media extraction
++ Asset indexing
++ Structured folders
++ Timestamp snapshots
++ Download images/videos
++ Capture complete pages
+```
 
 </td>
 </tr>
@@ -71,24 +91,30 @@ Transform your GitHub repository into an automated powerhouse capable of downloa
 <tr>
 <td width="50%">
 
-## 📂 Intelligent Organization
+# 📂 Intelligent Organization
 
-- Sort split archives
-- Group related files
-- Smart naming logic
-- Cleaner repositories
-- Automated structure
+```diff
++ Organize split archives
++ Group related files
++ Cleaner repository structure
++ Automatic folder generation
++ Smart naming logic
++ Better archive management
+```
 
 </td>
 <td width="50%">
 
-## ⚡ Fully Automated
+# ⚡ Fully Automated
 
-- GitHub Actions powered
-- No server required
-- Manual workflow triggers
-- Automatic pushes
-- Seamless GitHub integration
+```diff
++ Powered by GitHub Actions
++ No VPS required
++ No external server
++ Manual workflow triggers
++ Automated commits
++ Seamless GitHub integration
+```
 
 </td>
 </tr>
@@ -96,67 +122,143 @@ Transform your GitHub repository into an automated powerhouse capable of downloa
 
 ---
 
-# 🎬 Workflows
+<div align="center">
 
-| Workflow | Description |
-|:--|:--|
-| 📥 **Download from URL** | Download files directly from URLs with retry support and archive splitting |
-| 📂 **Sort Files** | Automatically organize split archives and grouped parts |
-| 🗑 **Clean Downloads** | Reset and clean the downloads folder safely |
-| 🌐 **Browse the Web** | Capture websites, screenshots, and media assets |
+# 🎬 𝙒𝙤𝙧𝙠𝙛𝙡𝙤𝙬 𝘾𝙤𝙡𝙡𝙚𝙘𝙩𝙞𝙤𝙣
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2600&pause=800&color=FF0080&center=true&vCenter=true&width=900&lines=⚙️+Automated+Workflow+System;🚀+One+Click+Operations;📦+Powerful+GitHub+Actions" />
+
+</div>
+
+| Workflow | Description | Trigger |
+|:--|:--|:--|
+| 📥 **Download from URL** | Download files directly from URLs with retry support and archive splitting | `workflow_dispatch` |
+| 📂 **Sort Files** | Automatically organize split archives and grouped parts | `workflow_dispatch` |
+| 🗑 **Clean Downloads** | Safely reset and clean the downloads folder | `workflow_dispatch` |
+| 🌐 **Browse the Web** | Capture websites, screenshots, and media assets | `workflow_dispatch` |
 
 ---
 
-# 🚀 Quick Start
+<div align="center">
 
-## 📥 Download Files
+# 🚀 𝙌𝙪𝙞𝙘𝙠 𝙎𝙩𝙖𝙧𝙩
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2500&pause=1000&color=00FFB3&center=true&vCenter=true&width=1000&lines=⚡+Easy+To+Use;📥+One+Click+Downloads;🌐+Capture+Entire+Websites" />
+
+</div>
+
+# 📥 Download Files
 
 ```bash
 Actions → Download Workflow → Run workflow
 ```
 
-### Example
+### Example URLs
 
 ```txt
 https://example.com/movie.mp4
 https://example.com/archive.zip
+https://example.com/video.mkv
+https://example.com/image.png
 ```
 
 ---
 
-# 📂 Repository Structure
+# 📦 Available Modes
+
+| Mode | Description |
+|:--|:--|
+| `normal` | Keep original files |
+| `zip` | Create split ZIP archives |
+
+---
+
+# 📂 Organize Split Archives
+
+```txt
+movie.z01
+movie.z02
+movie.z03
+movie.zip
+```
+
+⬇️
+
+```txt
+downloads/movie/
+```
+
+---
+
+# 🌐 Website Capture
+
+```diff
++ Download complete HTML pages
++ Capture full-page screenshots
++ Extract images/videos
++ Store everything automatically
++ Generate indexes and README files
+```
+
+---
+
+<div align="center">
+
+# 🧠 𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮 𝙎𝙩𝙧𝙪𝙘𝙩𝙪𝙧𝙚
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=800&color=FFD93D&center=true&vCenter=true&width=1000&lines=📂+Clean+Folder+Structure;📦+Beautiful+Organization;⚡+Automated+Management" />
+
+</div>
 
 ```txt
 downloads/
-├── package/
-│   ├── file.zip
-│   ├── file.z01
+├── package1/
+│   ├── archive.zip
+│   ├── archive.z01
+│   ├── archive.z02
+│   └── README.md
+│
+├── package2/
+│   ├── video.mp4
 │   └── README.md
 
 pages/
 ├── website/
 │   ├── page.html
 │   ├── screenshot.png
-│   └── media/
+│   ├── media/
+│   │   ├── image1.png
+│   │   └── video1.mp4
+│   └── index.md
+│
+├── browse.md
+└── README.md
 ```
 
 ---
 
-# ✨ Why Haelicx?
+<div align="center">
+
+# ✨ 𝙒𝙝𝙮 𝙃𝙖𝙚𝙡𝙞𝙘𝙭?
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=2500&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=⚡+Fast;🌐+Powerful;📦+Automated;🚀+Beautiful" />
+
+</div>
 
 | Traditional Method | Haelicx |
 |:--|:--|
 | Manual downloads | ⚡ Automated |
 | Messy folders | ✨ Organized |
 | No screenshots | 🌐 Full capture |
-| File size issues | 📦 Split archives |
 | No automation | 🤖 GitHub Actions |
+| File size limitations | 📦 Split archives |
+| Difficult management | 🚀 Easy workflows |
 
 ---
 
-# 🎨 Animated Decorations
-
 <div align="center">
+
+# 🎨 𝘼𝙣𝙞𝙢𝙖𝙩𝙚𝙙 𝘿𝙚𝙘𝙤𝙧𝙖𝙩𝙞𝙤𝙣𝙨
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
 
@@ -168,13 +270,23 @@ pages/
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Haelicx&theme=tokyo-night&hide_border=true"/>
 
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Haelicx&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Haelicx&theme=tokyonight&hide_border=true"/>
+
 </div>
 
 ---
 
-# 📞 Contact
-
 <div align="center">
+
+# 📞 𝘾𝙤𝙣𝙩𝙖𝙘𝙩
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=💜+Made+By+Haelicx;🚀+Open+Source+Project" />
 
 ### 👤 Haelicx
 
@@ -186,14 +298,14 @@ pages/
 
 ---
 
+<div align="center">
+
 # 📜 License
 
 MIT License
 
----
+<br>
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=gradient"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=gradient&customColorList=12,20,24,30"/>
 
 </div>
