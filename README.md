@@ -1,90 +1,290 @@
-# Haelicx
+# ✨ Haelicx
 
-Haelicx is a collection of GitHub Actions workflows that enable you to download files from arbitrary URLs, organize them, clean the downloads directory, and even browse websites capturing screenshots and media. The project is designed to be easy to use, fully automated, and integrates seamlessly with your GitHub repository.
+<div align="center">
 
-## Workflows
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&pause=1000&color=7A5CFF&center=true&vCenter=true&width=900&lines=Advanced+GitHub+Automation;Smart+File+Downloader;Website+Capture+%26+Media+Extractor;Beautiful+Workflow+Collection" />
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/haelicx/haelicx?style=for-the-badge&color=7A5CFF">
+  <img src="https://img.shields.io/github/stars/haelicx/haelicx?style=for-the-badge&color=00C2FF">
+  <img src="https://img.shields.io/github/forks/haelicx/haelicx?style=for-the-badge&color=FF4D8D">
+  <img src="https://img.shields.io/github/actions/workflow/status/haelicx/haelicx/download.yml?style=for-the-badge&color=00FFB3">
+</p>
+
+<h3>
+⚡ Powerful GitHub Actions Toolkit for Downloading, Archiving, Organizing & Website Capturing
+</h3>
+
+<p>
+Haelicx transforms your GitHub repository into a fully automated download and web-capture system with elegant workflows, media extraction, smart file organization, split archives, and stunning automation.
+</p>
+
+</div>
+
+---
+
+# 🌌 Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 📥 Smart Download Engine
+- Multi-URL downloads
+- Retry & failure recovery
+- Large file support
+- Automatic chunk splitting
+- ZIP archive generation
+- Password protected archives
+
+</td>
+<td width="50%">
+
+### 🌐 Advanced Website Capture
+- Full website screenshots
+- HTML archiving
+- Media extraction
+- Structured page storage
+- Asset indexing
+- Timestamped snapshots
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📂 Intelligent File Organization
+- Auto sorting split files
+- Organized folder structure
+- README generation
+- Clean repository management
+- Smart naming logic
+
+</td>
+<td width="50%">
+
+### ⚡ Fully Automated
+- GitHub Actions powered
+- Zero server required
+- Manual workflow triggers
+- Seamless repository integration
+- Automated commits & pushes
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🎬 Workflow Collection
+
+<div align="center">
 
 | Workflow | Description | Trigger |
-|---|---|---|
-| 📥 Haelicx 01-Download from URL | Download one or more files from URLs, optionally create a split ZIP archive, and push the result to the repository. | Manual (`workflow_dispatch`) – Provide a space‑separated list of URLs, choose `normal` or `zip` mode, and optionally set a password for ZIP archives. |
-| 📂 Haelicx Sort files | Organize split ZIP, DEB, or part files into sub‑folders based on their base name. | Manual (`workflow_dispatch`) |
-| 🗑 Haelicx Clean downloads folder | Remove all files from the `downloads/` folder and recreate it with a default `README.md`. | Manual (`workflow_dispatch`) – Requires confirmation due to the destructive nature. |
-| 🌐 Haelicx Browse the Web | Visit a website, download all media assets, capture a screenshot, and store everything in a structured folder under `pages/`. | Manual (`workflow_dispatch`) – Provide the URL of the page to visit. |
+|:--|:--|:--|
+| 📥 **Haelicx Download** | Download files from direct URLs, split large files, create ZIP archives, and upload automatically. | `workflow_dispatch` |
+| 📂 **Haelicx Sort Files** | Organize split archives and grouped parts into clean folders automatically. | `workflow_dispatch` |
+| 🗑 **Haelicx Clean Downloads** | Instantly clear the downloads directory and regenerate default structure. | `workflow_dispatch` |
+| 🌐 **Haelicx Browse Web** | Capture websites, screenshots, media assets, and generate structured archives. | `workflow_dispatch` |
 
-## Usage
+</div>
 
-### 1. Download Files
+---
 
-1. Open the **Download** workflow in the Actions tab.  
-2. Click **Run workflow**.  
-3. In the **URLs** field, enter space‑separated URLs (e.g., `https://example.com/file1.zip https://example.com/file2.mp4`).  
-4. Choose **Mode** (`normal` to keep files as‑is or `zip` to create a split ZIP archive).  
-5. (Optional) Enter a password if you selected `zip` mode.  
-6. Click **Run workflow**.
+# 🚀 Quick Start
 
-The workflow will:
-- Download each file, retrying on failure.  
-- Split large files into 45 MB chunks for GitHub.  
-- Push the files to your repository and create a `README.md` with download links.  
+## 1️⃣ Download Files
 
-### 2. Organize Split Files
+```bash
+Actions → Haelicx Download → Run workflow
+```
 
-If you have many split parts (e.g., `file.z01`, `file.z02`), run the **Sort** workflow. It will:
-- Create a folder named after the base file.  
-- Move all related parts into that folder.  
+### Example URLs
 
-### 3. Clean Downloads
+```txt
+https://example.com/movie.mp4
+https://example.com/archive.zip
+https://example.com/image.png
+```
 
-When you want to clear the `downloads/` folder, run the **Clean** workflow. The workflow:
-- Deletes all tracked files in `downloads/`.  
-- Recreates the folder with a default `README.md`.  
+### Available Modes
 
-**Caution:** This operation is destructive. Only run it if you are sure you want to delete all downloaded content.
+| Mode | Description |
+|:--|:--|
+| `normal` | Keep files in original format |
+| `zip` | Create split ZIP archives |
 
-### 4. Browse a Website
+---
 
-1. Run the **Browse** workflow.  
-2. Enter the URL of the website you want to capture.  
-3. The workflow will:
-   - Download the page’s HTML.  
-   - Capture a full‑page screenshot.  
-   - Extract all media assets (`.png`, `.jpg`, `.mp4`, etc.).  
-   - Store everything under `pages/<domain>/<slug>/<timestamp>/`.  
-   - Create an `index.md` with links to all files and a screenshot.  
+## 📦 Download Workflow Includes
 
-The `browse.md` file maintains a list of all captured pages for quick navigation.
+```diff
++ Multi URL support
++ Retry system
++ Split archives for GitHub limits
++ Automatic README generation
++ Repository push automation
++ Password protected ZIP support
+```
 
-## Repository Structure
+---
 
-### Downloads
-- `downloads/`
-  - `folder1/`
-    - `file1.zip`
-    - `README.md`
-  - `folder2/`
-    - `file2.z01`
-    - `file2.z02`
-    - `README.md`
+# 📂 Organize Split Files
 
-### Pages
-- `pages/`
-  - `folder/`
-    - `page.html`
-    - `screenshot.png`
-    - `media/`
-      - `image1.png`
-      - `video1.mp4`
-  - `index.md`
-  - `browse.md`
-- `README.md`
+Run the sorting workflow to automatically group:
 
-## Contact & Support
+```txt
+file.z01
+file.z02
+file.z03
+file.zip
+```
 
-- **Telegram:** @haelicx  
-- **Source:** This project is open‑source and hosted on GitHub. Feel free to open issues or pull requests.
+Into:
 
-## License
+```txt
+downloads/file/
+```
 
-MIT
+Perfect for massive archives and chunked uploads.
 
-*Made by Haelicx*
+---
+
+# 🗑 Clean Downloads
+
+The clean workflow safely resets your downloads folder:
+
+```diff
+- Removes tracked download files
++ Recreates folder structure
++ Generates fresh README.md
+```
+
+> ⚠️ Warning: This action is destructive and cannot be undone.
+
+---
+
+# 🌐 Website Capture System
+
+Haelicx can archive entire websites automatically.
+
+## Captured Content
+
+- ✅ Full HTML page
+- ✅ Full page screenshot
+- ✅ Images & videos
+- ✅ CSS & assets
+- ✅ Structured archive folders
+- ✅ Auto generated indexes
+
+---
+
+# 🧠 Generated Structure
+
+```txt
+pages/
+└── example.com/
+    └── homepage/
+        └── 2026-05-14/
+            ├── page.html
+            ├── screenshot.png
+            ├── media/
+            │   ├── image1.png
+            │   └── video1.mp4
+            └── index.md
+```
+
+---
+
+# 📁 Repository Structure
+
+```txt
+downloads/
+├── package1/
+│   ├── archive.zip
+│   └── README.md
+│
+├── package2/
+│   ├── movie.z01
+│   ├── movie.z02
+│   └── README.md
+
+pages/
+├── website/
+│   ├── page.html
+│   ├── screenshot.png
+│   └── media/
+│
+├── browse.md
+└── index.md
+```
+
+---
+
+# ✨ Why Haelicx?
+
+<div align="center">
+
+| Traditional Method | Haelicx |
+|:--|:--|
+| Manual downloads | ⚡ Automated |
+| Messy repositories | ✨ Organized |
+| No media extraction | 🌐 Full asset capture |
+| Limited file support | 📦 Large file splitting |
+| No automation | 🤖 GitHub Actions powered |
+
+</div>
+
+---
+
+# 🎨 Visual Style Suggestions
+
+For the ultimate GitHub profile appearance, enable:
+
+- `GitHub Dark Dimmed`
+- Animated typing SVG
+- Neon badges
+- Gradient headers
+- Custom social banners
+- Capsule render stats
+
+Recommended extras:
+
+```md
+https://github.com/anuraghazra/github-readme-stats
+https://github.com/DenverCoder1/readme-typing-svg
+https://github.com/kyechan99/capsule-render
+```
+
+---
+
+# 📞 Contact
+
+<div align="center">
+
+### 👤 Creator: Haelicx
+
+📨 Telegram: **@haelicx**
+
+⭐ Feel free to fork, contribute, open issues, or submit pull requests.
+
+</div>
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+## 💜 Made with automation, chaos, and caffeine.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=7A5CFF"/>
+
+</div>
