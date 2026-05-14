@@ -56,8 +56,27 @@ The `browse.md` file maintains a list of all captured pages for quick navigation
 
 ## Repository Structure
 
-downloads/ ├─ / │ ├─ <file1.zip> │ ├─ README.md ├─ / │ ├─ <file2.z01> │ ├─ <file2.z02> │ ├─ README.md pages/ ├─ /// │ ├─ page.html │ ├─ screenshot.png │ ├─ media/ │ │ ├─ image1.png │ │ ├─ video1.mp4 │ ├─ index.md browse.md README.md
+### Downloads
+- `downloads/`
+  - `folder1/`
+    - `file1.zip`
+    - `README.md`
+  - `folder2/`
+    - `file2.z01`
+    - `file2.z02`
+    - `README.md`
 
+### Pages
+- `pages/`
+  - `folder/`
+    - `page.html`
+    - `screenshot.png`
+    - `media/`
+      - `image1.png`
+      - `video1.mp4`
+  - `index.md`
+  - `browse.md`
+- `README.md`
 
 ## Contact & Support
 
